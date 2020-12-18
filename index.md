@@ -20,7 +20,7 @@ I'm interested in programming languages, compilers and HPC.
 1. I've contributed to the [Regent](http://regent-lang.org/) compiler on GitHub. Some of my contributions can be seen [here](https://github.com/StanfordLegion/legion/pulls?q=author%3Arupanshusoi) and [here](https://github.com/StanfordLegion/legion/issues?q=author%3Arupanshusoi+is%3Aissue+label%3Abug).
 
 ## Refereed Workshop Articles
-1. _An Implicitly Parallel Meshfree Solver in Regent_. **Rupanshu Soi**, Nischay Ram Mamidi, Elliott Slaughter, Kumar Prasun, Anil Nemili, S.M. Deshapande. In Parallel Applications Workshop: Alternatives to MPI+X (PAW-ATM), November 2020. [[Abstract](https://sc20.supercomputing.org/presentation/?id=ws_pawatm108&sess=sess218)][[Full Paper](https://conferences.computer.org/scwpub/pdfs/PAW-ATM2020-3hAMYwhCnnpHT0m34Bcu1H/545000a040/545000a040.pdf)][[Code](https://github.com/rupanshusoi/meshfree_solver_regent)]
+1. _An Implicitly Parallel Meshfree Solver in Regent_. **Rupanshu Soi**, Nischay Ram Mamidi, Elliott Slaughter, Kumar Prasun, Anil Nemili, S.M. Deshpande. In Parallel Applications Workshop: Alternatives to MPI+X (PAW-ATM), November 2020. [[Abstract](https://sc20.supercomputing.org/presentation/?id=ws_pawatm108&sess=sess218)][[Full Paper](https://conferences.computer.org/scwpub/pdfs/PAW-ATM2020-3hAMYwhCnnpHT0m34Bcu1H/545000a040/545000a040.pdf)][[Code](https://github.com/rupanshusoi/meshfree_solver_regent)]
 
 ## Links
 

@@ -22,7 +22,6 @@ I'm interested in programming languages, compilers and HPC.
 ## Refereed Workshop Articles
 1. _An Implicitly Parallel Meshfree Solver in Regent_. **Rupanshu Soi**, Nischay Ram Mamidi, Elliott Slaughter, Kumar Prasun, Anil Nemili, S.M. Deshpande. In Parallel Applications Workshop: Alternatives to MPI+X (PAW-ATM), November 2020. [[Abstract](https://sc20.supercomputing.org/presentation/?id=ws_pawatm108&sess=sess218)][[Full Paper](https://conferences.computer.org/scwpub/pdfs/PAW-ATM2020-3hAMYwhCnnpHT0m34Bcu1H/545000a040/545000a040.pdf)][[Code](https://github.com/rupanshusoi/meshfree_solver_regent)]
 
-<---
 ## Links
 
 I try to maintain an interesting and helpful collection of links.
@@ -38,5 +37,3 @@ I try to maintain an interesting and helpful collection of links.
 5. David Poole's NSERC [grant application](https://www.cs.ubc.ca/~poole/poole-NSERC-101-2010.pdf). (Don't get to see these too often!)
 
 6. George Hotz's [outline](https://github.com/geohot/fromthetransistor) for a 12 week course for understanding the modern computer stack.
---->
-

@@ -67,14 +67,6 @@ body {
   border-bottom: none;
 }
 
-@media (min-width: 410px) { .menu .menu-item { max-width: calc(50% - 10px); } }
-@media (min-width: 620px) { .menu .menu-item { max-width: calc(33.33333% - 10px); } }
-@media (min-width: 830px) { .menu .menu-item { max-width: calc(25% - 10px); } }
-@media (min-width: 1040px) { .menu .menu-item { max-width: calc(20% - 10px); } }
-@media (min-width: 1250px) { .menu .menu-item { max-width: calc(16.66667% - 10px); } }
-@media (min-width: 1460px) { .menu .menu-item { max-width: calc(14.28571% - 10px); } }
-@media (min-width: 1670px) { .menu .menu-item { min-width: calc(12.5% - 10px); } }
-
 .site {
   line-height: 1.5em;
 }

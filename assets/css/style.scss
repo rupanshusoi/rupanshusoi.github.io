@@ -1,17 +1,95 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+//@import "{{ site.theme }}";
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+h2, h3 {
+  color: #d9e2ec;
+  font-weight: 400;
+}
+
+a {
+  line-height: 1em;
+  color: #829ab1;
+  text-decoration: none;
+  border-bottom: solid 2px #627d98;
+  padding: 0;
+}
+
+a:visited {
+  color: #486581;
+}
+
+//a:hover, a:active {
+//  color: purple;
+//}
 
 body {
   background-color: #212121;
   color: #9E9E9E;
+  margin: 40px auto;
+  padding: 0px 10px 0px 10px;
+  max-width: 920px;
+  font-size: large;
+  line-height: 1.5;
 }
 
-h2 {
-color: #BDBDBD;
+.clearfix { clear: both; }
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
 }
 
-b, strong {
-  color: #E0E0E0;
+.menu .menu-item {
+  flex: 1 0 auto;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.menu .menu-item:first-child {
+  margin-left: 0px;
+}
+
+.menu .menu-item a {
+  text-decoration: none;
+}
+.menu .menu-item.active a {
+  border-bottom: none;
+}
+
+@media (min-width: 410px) { .menu .menu-item { max-width: calc(50% - 10px); } }
+@media (min-width: 620px) { .menu .menu-item { max-width: calc(33.33333% - 10px); } }
+@media (min-width: 830px) { .menu .menu-item { max-width: calc(25% - 10px); } }
+@media (min-width: 1040px) { .menu .menu-item { max-width: calc(20% - 10px); } }
+@media (min-width: 1250px) { .menu .menu-item { max-width: calc(16.66667% - 10px); } }
+@media (min-width: 1460px) { .menu .menu-item { max-width: calc(14.28571% - 10px); } }
+@media (min-width: 1670px) { .menu .menu-item { min-width: calc(12.5% - 10px); } }
+
+.site {
+  line-height: 1.5em;
+}
+
+.site header {
+  font-size: xx-large;
+  font-weight: 600;
+  color: #d9e2ec;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  margin-right: 2em;
 }

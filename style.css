@@ -10,13 +10,13 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 h2, h3 {
-  color: #d9e2ec;
+  color: #3c1874;
   font-weight: 400;
 }
 
 a {
   line-height: 1em;
-  color: #627d98;
+  color: #791c0b;
   text-decoration: none;
   padding: 0;
 }
@@ -33,8 +33,8 @@ a:hover, a:active {
 */
 
 body {
-  background-color: #212121;
-  color: #9E9E9E;
+  background-color: #f3f3f3;
+  color: black;
   margin: 40px auto;
   padding: 0px 10px 0px 10px;
   max-width: 920px;
@@ -68,7 +68,7 @@ body {
 .menu .menu-item.active a {
   border-bottom: none;
   font-weight: bold;
-  border-bottom: solid 2px #627d98;
+  border-bottom: solid 2px #791c0b;
 }
 
 .site {
@@ -78,7 +78,7 @@ body {
 .site header {
   font-size: xx-large;
   font-weight: 600;
-  color: #d9e2ec;
+  color: #3c1874;
 }
 
 .avatar {

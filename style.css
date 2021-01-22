@@ -26,11 +26,11 @@ a:visited {
 }
 */
 
-/*
-a:hover, a:active {
-  color: purple;
+
+a:hover {
+  border-bottom: solid 2px #791c0b;
 }
-*/
+
 
 body {
   background-color: #f3f3f3;

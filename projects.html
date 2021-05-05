@@ -35,27 +35,28 @@
 
     <h3>Dynamic Analysis for Index Launches</h3>
         [<a href="https://github.com/StanfordLegion/legion/pull/1054">Code</a>]<br>
-         I developed a sound and complete dynamic program analysis for determining the correctness of
-         applying an optimization (i.e. an index launch) to a certain class of loops in the Regent compiler.
+         I developed a dynamic program analysis for determining the correctness of
+         applying an optimization (i.e. an index launch) to a certain class of loops in the
+         <a href="https://regent-lang.org">Regent</a> compiler.
          The analysis is implemented as an AST transformation during an optimization pass.
+         To measure the performance impact
 
     <h3>Misty: A Scheme Interpreter in Lua</h3>
         [<a href="https://github.com/rupanshusoi/Misty">Code</a>]<br>
         This project is a personal exercise in understanding programming language implementation.
-        Misty is an interpreter for a small subset of Scheme using Lua.
-        I implemented basic notions of types and lexical scoping, but the implementation needs to be made much more concise.
+        Misty has basic notions of types and lexical scoping, but the implementation needs to be made much more concise.
 
     <h3>Selective Repeat Inspired File Transfer Protocol in Racket</h3>
         [<a href="https://github.com/rupanshusoi/Networks">Code</a>]<br>
-        For my computer networks course, I designed and implemented a reliable file transfer protocol over UDP sockets.
+        For my computer networks course, I had to design and implement a reliable file transfer protocol over UDP sockets.
         To challenge myself, I decided to use a language I had never used before: Racket. 
-        The protocol is able to handle a variety of adverse network conditions: packet loss, delays, reordering and corruption.
-        I was able to achieve speeds of 2.6 Gbps on local transfers.
+        My implementation is able to handle a variety of adverse network conditions: packet loss, delays, reordering, and corruption,
+        and achieve speeds of upto 2.6 Gbps on local transfers.
 
     <h3>Runi: Handwritten Lexer and Parser in Go</h3>
         [<a href="https://github.com/rupanshusoi/Runi">Code</a>]<br>
-        Runi is a lexer and recursive descent parser for a C-like language written in Go,
-        with support for generating parse tree visualizations using Graphviz.
+        Runi is a CFG grammar, lexer, and recursive descent parser for a C-like language written in Go,
+        with support for generating parse tree visualizations (depicting the leftmost derivation) using Graphviz.
 
     <h3>Contributions to the Regent Compiler</h3>
       [<a href="https://github.com/StanfordLegion/legion/pulls?q=author%3Arupanshusoi">PRs</a>]
@@ -67,8 +68,10 @@
     <h3>Brendr: Efficient Borrowing-Lending for Close-Knit Communities</h3>
       [<a href="https://github.com/mirameen/Brendr">Code</a>]
       [<a href="https://brendr.herokuapp.com">Prototype</a>]<br>
-      Brendr is an online platform for borrowing-lending in college campuses (and similar close-knit communities)
-      implemented as a MERN stack web-app. A working prototype is hosted on Heroku.
+      Brendr is an online platform for borrowing-lending in college campuses (and similar closely knit communities)
+      implemented using the MERN stack.
+      It is a feature of Brendr to not support monetary transactions.
+      A working prototype is hosted on Heroku.
 
     <h3>An Implicitly Parallel Meshfree Solver in Regent</h3>
       [<a href="https://github.com/rupanshusoi/meshfree_solver_regent">Code</a>]

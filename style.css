@@ -9,6 +9,11 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+.contact {
+  font-family: "Inconsolata", "Consolas", monospace;
+  font-size: 16px;
+}
+
 h2, h3 {
   color: #3c1874;
   font-weight: 400;
@@ -21,19 +26,12 @@ a {
   padding: 0;
 }
 
-/*
-a:visited {
-}
-*/
-
-
 a:hover {
   border-bottom: solid 2px #791c0b;
 }
 
 
 body {
-  background-color: #f3f3f3;
   color: black;
   margin: 40px auto;
   padding: 0px 10px 0px 10px;
@@ -62,9 +60,6 @@ body {
   margin-left: 0px;
 }
 
-.menu .menu-item a {
-  text-decoration: none;
-}
 .menu .menu-item.active a {
   border-bottom: none;
   font-weight: bold;

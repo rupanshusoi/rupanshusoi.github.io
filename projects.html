@@ -35,11 +35,11 @@
 
     <h3>Dynamic Analysis for Index Launches</h3>
         [<a href="https://github.com/StanfordLegion/legion/pull/1054">Code</a>]<br>
-         I developed a dynamic program analysis for determining the correctness of
-         applying an optimization (i.e. an index launch) to a certain class of loops in the
-         <a href="https://regent-lang.org">Regent</a> compiler.
-         The analysis is implemented as an AST transformation during an optimization pass.
-         To measure the performance impact
+         I developed a hybrid (static + dynamic) program analysis for determining the correctness of
+         applying an optimization, known as an index launch, to a certain class of loops in
+         <a href="https://regent-lang.org">Regent</a>.
+         To confirm that the analysis had negligible run-time performance impact,
+         I ran several experiments on Piz Daint, the #12 supercomputer in the world.
 
     <h3>Misty: A Scheme Interpreter in Lua</h3>
         [<a href="https://github.com/rupanshusoi/Misty">Code</a>]<br>

@@ -37,6 +37,15 @@
 
     <div class="clearfix"></div>
 
+    <h3>Exploring LLVM using the Anaximander Approach</h3>
+        The Anaximander approach is a general technique to reverse-engineer a
+        microservice's architecture. I investigated the feasibility of using it
+        to explore the architecture of another sophisticated software system
+        commonly found in industry: a compiler. I developed several modular
+        probes that collected information about LLVM, and created techniques to
+        recursively compose that information to create a set of maps about
+        LLVM.
+
     <h3>Dynamic Analysis for Index Launches</h3>
         [<a href="https://github.com/StanfordLegion/legion/pulls?q=is%3Apr+1054+1097">Code</a>]<br>
          I developed a dynamic program analysis for determining the correctness of
@@ -76,10 +85,7 @@
       A working prototype is hosted on Heroku.
 
     <h3>An Implicitly Parallel Meshfree Solver in Regent</h3>
-      [<a href="https://github.com/rupanshusoi/meshfree_solver_regent">Code</a>]
-      [<a href="https://sc20.supercomputing.org/presentation/?id=ws_pawatm108&sess=sess218">Abstract</a>]
-      [<a href="/pdfs/paw-atm-2020.pdf">Paper</a>]
-      [<a href="/pdfs/paw-atm-2020-slides.pdf">Slides</a>]<br>
+      [<a href="https://github.com/rupanshusoi/meshfree_solver_regent">Code</a>]<br>
       I developed a high-performance CFD solver based on q-LSKUM in Regent.
       Regent is an implicitly parallel programming language,
       which means users can write sequential code which is parallelized automatically.

@@ -37,12 +37,12 @@ img {
   height: 300px;
   margin-top: -2em;
   margin-right: 1em;
-  margin-left: 5em;
   border-radius: 10%;
 }
 
 p, table {
   margin-left: 2em;
+  margin-right: 2em;
   font-size: 1.3em;
 }
 
@@ -52,7 +52,7 @@ a {
 
 .caption {
   text-align: center;
-  padding-left: 4.5em;
+  padding-right: 1.1em;
   font-style: italic;
 }
 
@@ -68,4 +68,5 @@ td {
 .date {
   font-weight: bold;
   padding-right: 2em;
+  width: 10vw;
 }

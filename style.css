@@ -8,7 +8,7 @@ h1 {
   text-align: left;
   padding-left: 0.4em;
   font-family: Lato, sans-serif;
-  font-size: 48px;
+  font-size: 3em;
   font-weight: 900;
   font-style: italic;
   color: white;
@@ -22,7 +22,7 @@ h2 {
   text-align: left;
   margin-left: 1em;
   font-family: Lato, sans-serif;
-  font-size: 30px;
+  font-size: 2em;
   font-style: italic;
   color: white;
   text-shadow: 3px 3px 2px darkviolet;
@@ -41,9 +41,9 @@ img {
   border-radius: 10%;
 }
 
-p {
+p, table {
   margin-left: 2em;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 a {
@@ -56,7 +56,16 @@ a {
   font-style: italic;
 }
 
-span {
+.code {
   font-family: 'Roboto Mono', monospace;
   font-size: 90%;
+}
+
+td {
+  padding-bottom: 1em;
+}
+
+.date {
+  font-weight: bold;
+  padding-right: 2em;
 }

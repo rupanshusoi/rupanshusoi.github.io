@@ -14,8 +14,8 @@ h1 {
   color: white;
   text-shadow: 3px 3px 2px darkviolet;
   text-transform: uppercase;
-  letter-spacing: 30px;
-  word-spacing: 40px;
+  letter-spacing: 10px;
+  /* word-spacing: 20px; */
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 }
 
 img {
-  height: 300px;
+  height: 270px;
   margin-top: -2em;
   margin-right: 1em;
   border-radius: 10%;
@@ -58,7 +58,7 @@ a {
 
 .code {
   font-family: 'Roboto Mono', monospace;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 td {
@@ -69,4 +69,45 @@ td {
   font-weight: bold;
   padding-right: 2em;
   width: 10vw;
+}
+
+.blank {
+  margin-left: 80px;
+}
+
+span[class^='h'] {
+  animation-name: highlight;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease;
+}
+
+:root {
+  --delay: 0.05s;
+  --start: 0.5s;
+}
+
+.h0 { animation-delay: calc(var(--start) + 1 * var(--delay)); }
+.h1 { animation-delay: calc(var(--start) + 2 * var(--delay)); }
+.h2 { animation-delay: calc(var(--start) + 3 * var(--delay)); }
+.h3 { animation-delay: calc(var(--start) + 4 * var(--delay)); }
+.h4 { animation-delay: calc(var(--start) + 5 * var(--delay)); }
+.h5 { animation-delay: calc(var(--start) + 6 * var(--delay)); }
+.h6 { animation-delay: calc(var(--start) + 7 * var(--delay)); }
+.h7 { animation-delay: calc(var(--start) + 8 * var(--delay)); }
+.h8 { animation-delay: calc(var(--start) + 9 * var(--delay)); }
+.h9 { animation-delay: calc(var(--start) + 10 * var(--delay)); }
+.h10 { animation-delay: calc(var(--start) + 11 * var(--delay)); }
+
+@keyframes highlight {
+  from {
+    color: white;
+  }
+  10% {
+    color: yellow;
+  }
+  20% {
+    color: white;
+  }
 }

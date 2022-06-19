@@ -14,8 +14,8 @@ h1 {
   color: white;
   text-shadow: 3px 3px 2px darkviolet;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  /* word-spacing: 20px; */
+  letter-spacing: 30px;
+  word-spacing: 40px;
 }
 
 h2 {
@@ -29,14 +29,20 @@ h2 {
   letter-spacing: 3px;
 }
 
-.flex {
+.container {
   display: flex;
+  flex-wrap: wrap;
+  max-width: calc(900px + 270px);
+  justify-content: center;
+}
+
+.img-adj {
+  max-width: 900px;
+  text-align: left;
 }
 
 img {
   height: 270px;
-  margin-top: -2em;
-  margin-right: 1em;
   border-radius: 10%;
 }
 
@@ -52,7 +58,6 @@ a {
 
 .caption {
   text-align: center;
-  padding-right: 1.1em;
   font-style: italic;
 }
 
@@ -75,39 +80,3 @@ td {
   margin-left: 80px;
 }
 
-span[class^='h'] {
-  animation-name: highlight;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: ease;
-}
-
-:root {
-  --delay: 0.05s;
-  --start: 0.5s;
-}
-
-.h0 { animation-delay: calc(var(--start) + 1 * var(--delay)); }
-.h1 { animation-delay: calc(var(--start) + 2 * var(--delay)); }
-.h2 { animation-delay: calc(var(--start) + 3 * var(--delay)); }
-.h3 { animation-delay: calc(var(--start) + 4 * var(--delay)); }
-.h4 { animation-delay: calc(var(--start) + 5 * var(--delay)); }
-.h5 { animation-delay: calc(var(--start) + 6 * var(--delay)); }
-.h6 { animation-delay: calc(var(--start) + 7 * var(--delay)); }
-.h7 { animation-delay: calc(var(--start) + 8 * var(--delay)); }
-.h8 { animation-delay: calc(var(--start) + 9 * var(--delay)); }
-.h9 { animation-delay: calc(var(--start) + 10 * var(--delay)); }
-.h10 { animation-delay: calc(var(--start) + 11 * var(--delay)); }
-
-@keyframes highlight {
-  from {
-    color: white;
-  }
-  10% {
-    color: yellow;
-  }
-  20% {
-    color: white;
-  }
-}

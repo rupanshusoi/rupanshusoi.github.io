@@ -1,84 +1,29 @@
 html {
-  background: linear-gradient(180deg, darkturquoise, wheat);
-  min-height: 100%;
-  max-width: 1200px;
+  text-align: center;
+  margin-right: 33%;
+  margin-left: 33%;
+  background: darkturquoise;
   font-family: Joan, serif;
 }
 
+img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
 h1 {
-  text-align: left;
-  padding-left: 0.4em;
   font-family: Lato, sans-serif;
   font-size: 2.75em;
   font-weight: 900;
   font-style: italic;
-  color: white;
   text-shadow: 3px 3px 2px darkviolet;
   text-transform: uppercase;
+  color: white;
   letter-spacing: 0.5em;
   word-spacing: 0.8em;
   overflow: wrap;
 }
 
-h2 {
-  text-align: left;
-  margin-left: 1em;
-  font-family: Lato, sans-serif;
-  font-size: 2em;
-  font-style: italic;
-  color: white;
-  text-shadow: 3px 3px 2px darkviolet;
-  letter-spacing: 3px;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: calc(900px + 270px);
-  justify-content: center;
-}
-
-.img-adj {
-  max-width: 900px;
-  text-align: left;
-}
-
-img {
-  height: 270px;
-  border-radius: 10%;
-}
-
-p, table {
-  margin-left: 2em;
-  margin-right: 2em;
+p {
   font-size: 1.3em;
 }
-
-a {
-  color: darkviolet;
-}
-
-.caption {
-  text-align: center;
-  font-style: italic;
-}
-
-.code {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 85%;
-}
-
-td {
-  padding-bottom: 1em;
-}
-
-.date {
-  font-weight: bold;
-  padding-right: 2em;
-  width: 10vw;
-}
-
-.blank {
-  margin-left: 80px;
-}
-

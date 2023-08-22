@@ -1,9 +1,14 @@
 html {
   text-align: center;
-  margin-right: 33%;
-  margin-left: 33%;
   background: darkturquoise;
   font-family: Joan, serif;
+}
+
+@media screen and (min-width:801px) {
+  html {
+    margin-right: 33%;
+    margin-left: 33%;
+  }
 }
 
 img {

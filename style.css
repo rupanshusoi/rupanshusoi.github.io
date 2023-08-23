@@ -5,7 +5,7 @@ html {
 }
 
 @media screen and (min-width:801px) {
-  html {
+  img, p {
     margin-right: 33%;
     margin-left: 33%;
   }
